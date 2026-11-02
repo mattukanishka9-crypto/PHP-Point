@@ -1,0 +1,77 @@
+
+<link rel="stylesheet" href="style.css">
+<div class="topic">
+
+    <div class="topic-header" onclick="toggleSubtopics(this)">
+        <div class="left">
+            <div class="icon blue">★</div>
+            <div>
+                <h3>UNIT 2 - PHP Fundamentals & Strings</h3>
+                <p>Core PHP Programs & String Handling</p>
+            </div>
+        </div>
+        <div class="arrow">→</div>
+    </div>
+
+    <div class="subtopics">
+        <ul>
+
+            <li><a href="https://drive.google.com/file/d/14L6mpfPXKc_d-gSGdeyQmdNev9kmOvdX/view?usp=drive_link" target="_blank">1. Write a PHP program to print Hello World.</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1szSCufgv7wmfZUFiyr2-8Objts4ezYpK/view?usp=drive_link" target="_blank">2. Write a PHP program to demonstrate variables and data types.</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1896Gnd_o0dpeoiyp0ZxqV2A470XN1V1s/view?usp=drive_link" target="_blank">3. Write a PHP program to perform addition of two numbers.</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1aBgNMgX2m46bIXM_76YfwzxTY6xFBrE6/view?usp=drive_link" target="_blank">4. Write a PHP program to check whether a number is even or odd.</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1aBgNMgX2m46bIXM_76YfwzxTY6xFBrE6/view?usp=drive_link" target="_blank">5. Write a PHP program to find factorial of a number.</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1XuGyjI7pqoYaEQgSIgZF7Gv0ePOvasMd/view?usp=drive_link" target="_blank">6. Write a PHP program to print numbers from 1 to 10 using loop.</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1evQLcJC_VvhsYht7gnDojCHCfdxC1tba/view?usp=drive_link" target="_blank">7. Write a PHP program to calculate sum of first N numbers.</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1nCr_V9RUIcvDF42g-svGWSHY3nKzHTRw/view?usp=drive_link" target="_blank">8. Write a PHP program to print multiplication table.</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1LaZIaul02qmIbCVCbrYQHpBbeaNbZA3P/view?usp=drive_link" target="_blank">9. Write a PHP program to find maximum of two numbers.</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1zEU-nFZngsPnUsTb5lNea4T3sw5qJK6j/view?usp=drive_link" target="_blank">10. Write a PHP program to swap two numbers.</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1mpP6hUov50xjinQ2beUM7Tw0cnWfgTTX/view?usp=drive_link" target="_blank">11. Write a PHP program to check prime number.</a></li>
+
+            <li><a href="https://drive.google.com/file/d/11JfrLCogMKMNo7-5pKDjS-S_rYtdjXkb/view?usp=drive_link" target="_blank">12. Write a PHP program to generate Fibonacci series.</a></li>
+
+            <li><a href="https://drive.google.com/file/d/16mSlp07foK0E5wrGkOODTrbMWVNLPbjW/view?usp=drive_link" target="_blank">13. Write a PHP program to find length of a string.</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1BF-rhrRY39iHM2ek5-U7aDpzcOpNDiOb/view?usp=drive_link" target="_blank">14. Write a PHP program to reverse a string.</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1vKB5aMpFI6jYukINfi6eQb7N1UAessBk/view?usp=drive_link" target="_blank">15. Write a PHP program to count vowels in a string.</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1qADuqXe4OcrRg-j_F4GgCkLVr0CX9Yjg/view?usp=drive_link" target="_blank">16. Write a PHP program to convert string to uppercase and lowercase.</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1gzmp2xUHMh-BpCNcjq4zYoZJR4a7SUiV/view?usp=drive_link" target="_blank">17. Write a PHP program to concatenate two strings.</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1_2oIyNEtLgeRvTf1Tt3kzRj8JrK51B4w/view?usp=drive_link" target="_blank">18. Write a PHP program to compare two strings.</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1I57Z17pmXZJSaKcIS9HIGXsJ7RCwecof/view?usp=drive_link" target="_blank">19. Write a PHP program to replace a word in a string.</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1OH3dXuoKF-RvlaxLs_yVorXRKJhiEMOW/view?usp=drive_link" target="_blank">20. Write a PHP program to check palindrome string.</a></li>
+
+        </ul>
+    </div>
+
+</div>
+
+<script>
+function toggleSubtopics(element) {
+    const subtopics = element.nextElementSibling;
+    const arrow = element.querySelector(".arrow");
+
+    if (subtopics.style.display === "block") {
+        subtopics.style.display = "none";
+        arrow.style.transform = "rotate(0deg)";
+    } else {
+        subtopics.style.display = "block";
+        arrow.style.transform = "rotate(90deg)";
+    }
+}
+</script>

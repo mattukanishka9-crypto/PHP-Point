@@ -1,0 +1,68 @@
+
+<link rel="stylesheet" href="style.css">
+<div class="topic">
+
+    <div class="topic-header" onclick="toggleSubtopics(this)">
+        <div class="left">
+            <div class="icon blue">★</div>
+            <div>
+                <h3>UNIT 4 - MYSQL & DATABASE</h3>
+                <p>Database Connectivity & CRUD Operations</p>
+            </div>
+        </div>
+        <div class="arrow">→</div>
+    </div>
+
+    <div class="subtopics">
+        <ul>
+            
+
+            <li><a href="https://drive.google.com/file/d/18CQT9x8clRDwRCkmtbeHYuseFx_Gjl-I/view?usp=drive_link" target="_blank">1. Write a PHP program to connect with MySQL database.</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1RdiUipeNpv-zrU0U_bCYLfsZ88oY4nNh/view?usp=drive_link" target="_blank">2. Create a database using PHP.</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1lJYqNj0C6iaAtRSwlB-quP5JMbw2YZxu/view?usp=drive_link" target="_blank">3. Create a table in MySQL using PHP.</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1hajnQKfbQhSE0N5mq3nkPwyq1OdRHLbF/view?usp=drive_link" target="_blank">4. Insert data into database using PHP.</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1tvphy_hbDAURFDrA5aL2QnV824UFxTpv/view?usp=drive_link" target="_blank">5. Display records from database using PHP.</a></li>
+
+            <li><a href=https://drive.google.com/file/d/17HPV4eKBCORVvupXEwlS2BIIfyTbYs3D/view?usp=drive_link" target="_blank">6. Update data in database using PHP.</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1iIVR2UA5WwATLsYNKGBHdZU7rZIXp6OM/view?usp=drive_link" target="_blank">7. Delete data from database using PHP.</a></li>
+
+            <li><a href="https://drive.google.com/file/d/13DoIEZo2ncBmjPL11JNBk9EWdVGIHNvF/view?usp=drive_link" target="_blank">8. Create a student registration form and store data in database.</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1EnxRkhW3tLKaXAfgjHkzdjH4EO195jI_/view?usp=drive_link" target="_blank">9. Create a login system using database.</a></li>
+
+            <li><a href="https://drive.google.com/file/d/11zuq-YQcArzuTU5ttjhexX58oz82pKRV/view?usp=drive_link" target="_blank">10. Search records from database using PHP.</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1JAUpof6XBtaCoSE6whJym-Zd-GlrqNZ_/view?usp=drive_link" target="_blank">11. Count number of records in a table.</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1vllxZ8R5YfD7ou38UPE7PjakJ4N-MmAF/view?usp=drive_link" target="_blank">12. Display database records in HTML table format.</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1iNdtT9aYVTp42m8rXPcacG7LKG0gpq78/view?usp=drive_link" target="_blank">13. Sort records using ORDER BY clause.</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1uaglJ2OX01hRJgnMkuZR9nLn-kUy0bMG/view?usp=drive_link" target="_blank">14. Limit number of records using LIMIT clause.</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1C5AYPTjOztbui6jQXfHqAc83M_7IXGMz/view?usp=drive_link" target="_blank">15. Perform JOIN operation between two tables.</a></li>
+
+        </ul>
+    </div>
+
+</div>
+
+<script>
+function toggleSubtopics(element) {
+    const subtopics = element.nextElementSibling;
+    const arrow = element.querySelector(".arrow");
+
+    if (subtopics.style.display === "block") {
+        subtopics.style.display = "none";
+        arrow.style.transform = "rotate(0deg)";
+    } else {
+        subtopics.style.display = "block";
+        arrow.style.transform = "rotate(90deg)";
+    }
+}
+</script>

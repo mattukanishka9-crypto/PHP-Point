@@ -1,0 +1,67 @@
+
+<link rel="stylesheet" href="style.css">
+<div class="topic">
+
+    <div class="topic-header" onclick="toggleSubtopics(this)">
+        <div class="left">
+            <div class="icon blue">★</div>
+            <div>
+                <h3>UNIT 3 - FORMS & VALIDATION</h3>
+                <p>GET/POST, Forms, Sessions & Validation</p>
+            </div>
+        </div>
+        <div class="arrow">→</div>
+    </div>
+
+    <div class="subtopics">
+        <ul>
+
+            <li><a href="https://drive.google.com/file/d/1QVCe0-Rz5bwvnTYa2rgvTyUvbWj9r_8O/view?usp=drive_link" target="_blank">1. Create a simple HTML form using GET method.</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1L1QJKohuVMpPZA-WQ_Z-w99ViPCsPSab/view?usp=drive_link target="_blank">2. Create a simple HTML form using POST method.</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1_vYal0JeKrQ9Fwtef4z7d90t6x3ogo99/view?usp=drive_link" target="_blank">3. Write a PHP program to display form data using GET.</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1KJa5EzLLcqB4hdrDp9m2MT9XrLkFIrDj/view?usp=drive_link" target="_blank">4. Write a PHP program to display form data using POST.</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1JxkIkaBZTLvvKuMDJugcKbxuG1utdIMv/view?usp=drive_link" target="_blank">5. Create a student registration form (Name, Email, Phone).</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1xhn9eng77YyCYsMPlpkEun02ZKFClHif/view?usp=drive_link" target="_blank">6. Create a login form and validate username & password.</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1ntffW_tUz5IGN-6kJMA-SAMYMuU1jo_H/view?usp=drive_link" target="_blank">7. Write a PHP program for email validation.</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1M7w7whg8uTeDfYx5dEhRygAfyqfkW5S9/view?usp=drive_link" target="_blank">8. Write a PHP program for password validation (length, special characters).</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1O5CbMqQqPGgLKK3ce_rhCP5TcEAplYoc/view?usp=drive_link" target="_blank">9. Write a PHP program to check required fields in a form.</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1_JD7gMBVGeqGFNzeAdQsXTTCpVbrPQa6/view?usp=drive_link" target="_blank">10. Create a calculator using form input.</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1gNh2GBelgLcMpRldluzItY8B8KznJBIf/view?usp=drive_link" target="_blank">11. Create a marksheet generator using form input.</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1ceqlVCKXu7r2yFLBhAF7wrXvIy5Qsw1g/view?usp=drive_link" target="_blank">12. Demonstrate use of sessions in PHP.</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1wWx7YpTuGnOES2daeV7SWCyS1QxflBlf/view?usp=drive_link" target="_blank">13. Create login system using session.</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1_m83STeX1y4xAODuHZ2XKlEpGMFXCs6X/view?usp=drive_link" target="_blank">14. Create logout functionality using session_destroy().</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1_m83STeX1y4xAODuHZ2XKlEpGMFXCs6X/view?usp=drive_link" target="_blank">15. Create a file upload form in PHP.</a></li>
+
+        </ul>
+    </div>
+
+</div>
+
+<script>
+function toggleSubtopics(element) {
+    const subtopics = element.nextElementSibling;
+    const arrow = element.querySelector(".arrow");
+
+    if (subtopics.style.display === "block") {
+        subtopics.style.display = "none";
+        arrow.style.transform = "rotate(0deg)";
+    } else {
+        subtopics.style.display = "block";
+        arrow.style.transform = "rotate(90deg)";
+    }
+}
+</script>
